@@ -318,7 +318,7 @@ class Polynomial:
         R = self.R
         dat = self._dat
         odat = other._dat
-        for k in chain(iter(dat.keys()),iter(odat.keys())):
+        for k in chain(dat.keys(),odat.keys()):
             if dat.get(k,R.KZERO) != odat.get(k,R.KZERO):
                 return False
 
