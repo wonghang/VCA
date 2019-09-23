@@ -6,15 +6,15 @@ The algorithm is based on the following paper:
 
 > Livni, Roi, et al. "Vanishing component analysis." International Conference on Machine Learning. 2013.
 
-It is just a test of the above algorithm and compare it with Kernel SVM (especially polynomial kernel).
-
-The code requires [scikit-learn](https://scikit-learn.org/).
+The code was written by me many years ago and it was just a test of the above algorithm.
 
 The code contains a simple symbolic polynomial code which is quite slow and may not be numerical stable.
  
 The polynomial evaluation code is a naive implementation. Horner's method or more sophisticated algorithm such as Homotopy Continuation Methods should be used.
 
-To run the test code:
+An example code is implemented to compare it with Kernel SVM (especially polynomial kernel). The example code requires [scikit-learn](https://scikit-learn.org/).
+
+To run the example code:
 
 ```
 $ python3 test_VCA.py
