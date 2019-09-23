@@ -6,9 +6,9 @@ The algorithm is based on the following paper:
 
 > Livni, Roi, et al. "Vanishing component analysis." International Conference on Machine Learning. 2013.
 
-The code was written by me many years ago and it was just a test of the above algorithm.
+The code was written by me many years ago, and it was just a test of the above algorithm.
 
-The code contains a simple symbolic polynomial code which is quite slow and may not be numerical stable.
+The code contains a simple symbolic polynomial code which is quite slow and may not be numerical stable. It was never intended for practical use.
  
 The polynomial evaluation algorithm is a naive one. Horner's method or more sophisticated algorithm such as Homotopy Continuation Methods should be used.
 
