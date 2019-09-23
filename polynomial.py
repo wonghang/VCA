@@ -210,9 +210,6 @@ class Polynomial:
         else:
             return " + ".join(r)
 
-    def __repr__(self):
-        return "<" + str(self) + ">"
-
     def immutable(self):
         if self._mutable:
             self.reduce()
