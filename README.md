@@ -12,7 +12,7 @@ The code requires [scikit-learn](https://scikit-learn.org/).
 
 The code contains a simple symbolic polynomial code which is quite slow and may not be numerical stable.
  
-The polynomial evaluation code is a naive implementation. Horner's method or more sophisticated algorithm such as Polynomial Homotopy Continuation Methods should be used.
+The polynomial evaluation code is a naive implementation. Horner's method or more sophisticated algorithm such as Homotopy Continuation Methods should be used.
 
 To run the test code:
 
