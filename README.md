@@ -10,7 +10,7 @@ The code was written by me many years ago and it was just a test of the above al
 
 The code contains a simple symbolic polynomial code which is quite slow and may not be numerical stable.
  
-The polynomial evaluation code is a naive implementation. Horner's method or more sophisticated algorithm such as Homotopy Continuation Methods should be used.
+The polynomial evaluation algorithm is a naive one. Horner's method or more sophisticated algorithm such as Homotopy Continuation Methods should be used.
 
 An example code is implemented to compare it with Kernel SVM (especially polynomial kernel). The example code requires [scikit-learn](https://scikit-learn.org/).
 
